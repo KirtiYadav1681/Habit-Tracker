@@ -1,0 +1,135 @@
+.navbar{
+    text-align: center;
+    padding:10px 0;
+}
+.navbar h1{
+    margin: 0;
+    color:rgb(3, 22, 65);
+    font-size:35px;
+}
+
+.home-main{
+    background:radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+    height: calc(100vh - 62.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    
+}
+.main .quote p{
+    color:white;
+}
+.input{
+    margin-left: 50px;
+    padding-left: 15px;
+    width: 500px;
+    height: 40px;
+    border-radius: 19px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(124, 120, 120);
+   
+}
+.input:focus{
+    outline: none;
+}
+
+.form-button{
+    height: 45px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #141414;
+    border: none;
+    color:white;
+    font-size:17px ;
+    font-weight: bold;
+}
+
+.sign{
+    margin-top: 10px;
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width:500px;
+}
+.sign .signs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+.sign i{
+    font-size: 23px;
+}
+.sign p{
+    font-size: 15px;
+    color: white;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+.habits-container {
+    background:radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    min-height: calc(100vh - 62.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habits-list-wrapper{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60vw;
+}
+
+.habit{
+    width:98%;
+    margin:5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(235, 230, 230);
+}
+
+.habit-name, .dates-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between
+}
+
+.habit-name{
+    border-bottom:1px solid rgb(0, 0, 0);
+    padding:5px 20px;
+}
+
+.dates-wrapper{
+    padding:10px 20px;
+}
+
+.date{
+    border:1px solid rgb(0, 0, 0);
+    background-color:rgba(141, 141, 141, 0.5);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:14%;
+    padding-top:15px;
+}
